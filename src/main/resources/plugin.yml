@@ -1,0 +1,11 @@
+name: chatfilter
+version: '${project.version}'
+main: dev.clxud.chatfilter.Chatfilter
+api-version: '1.19'
+author: Clxud
+description: Chatfilter plugin
+
+permissions:
+    chatfilter.bypass:
+        description: Allows you to bypass the chatfilter
+
