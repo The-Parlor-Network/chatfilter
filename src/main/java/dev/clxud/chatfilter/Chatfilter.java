@@ -7,12 +7,14 @@ import net.kyori.adventure.text.logger.slf4j.ComponentLogger;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public final class Chatfilter extends JavaPlugin implements @NotNull Listener {
 
@@ -53,28 +55,15 @@ public final class Chatfilter extends JavaPlugin implements @NotNull Listener {
     }
 
     @EventHandler
-    public void onChat(AsyncChatEvent event) {
+    public void onChat(AsyncPlayerChatEvent event) {
         Player player = event.getPlayer();
-        Component message = event.message();
+        String message = event.getMessage();
 
         if (player.hasPermission("chatfilter.bypass")) return;
 
-        for (String word : badWords) {
-            // get length of word and replace with *
+        String output = BadWordFilter.getCensoredText(message.toString());
 
-            if (message.toString().toLowerCase().contains(word)) {
-                String replace = "";
-
-                for (int i = 0; i < word.length(); i++) {
-                    replace += "*";
-                }
-                message = message.replaceText(TextReplacementConfig.builder().matchLiteral(word).replacement(replace).build());
-                event.message(message);
-            }
-        }
-
-
-
+        event.setMessage(output);
 
     }
 }

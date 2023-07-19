@@ -3,8 +3,6 @@ anus
 ash0le
 ash0les
 asholes
-ass
-Ass Monkey
 Assface
 assh0le
 assh0lez
@@ -22,14 +20,13 @@ basterdz
 Biatch
 bitch
 bitches
-Blow Job
+Blow_Job
 boffing
 butthole
 buttwipe
 c0ck
 c0cks
 c0k
-Carpet Muncher
 cawk
 cawks
 Clit
@@ -58,8 +55,8 @@ dominatrics
 dominatrix
 dyke
 enema
-f u c k
-f u c k e r
+f_u_c_k
+f_u_c_k_e_r
 fag
 fag1t
 faget
@@ -72,13 +69,13 @@ fagz
 faig
 faigs
 fart
-flipping the bird
+flipping_the_bird
 fuck
 fucker
 fuckin
 fucking
 fucks
-Fudge Packer
+Fudge_Packer
 fuk
 Fukah
 Fuken
@@ -129,21 +126,21 @@ masstrbate
 masterbaiter
 masterbate
 masterbates
-Motha Fucker
-Motha Fuker
-Motha Fukkah
-Motha Fukker
-Mother Fucker
-Mother Fukah
-Mother Fuker
-Mother Fukkah
-Mother Fukker
+Motha_Fucker
+Motha_Fuker
+Motha_Fukkah
+Motha_Fukker
+Mother_fucker
+Mother_Fukah
+Mother_Fuker
+Mother_Fukkah
+Mother_Fukker
 mother-fucker
-Mutha Fucker
-Mutha Fukah
-Mutha Fuker
-Mutha Fukkah
-Mutha Fukker
+Mutha_Fucker
+Mutha_Fukah
+Mutha_Fuker
+Mutha_Fukkah
+Mutha_Fukker
 n1gr
 nastt
 nigger;
@@ -257,7 +254,6 @@ clit
 arschloch
 fuck
 shit
-ass
 asshole
 b!tch
 b17ch
